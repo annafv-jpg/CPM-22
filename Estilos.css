@@ -1,11 +1,13 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Exile&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Changa+One:ital@0;1&display=swap');
 
 header h1 {
-  font-family: "Exile", system-ui;
+font-family: "Changa One", sans-serif;
   font-size: 35px;
-  color: rgb(209, 42, 42);
+  color: rgb(163, 46, 54);
+  text-transform: uppercase;
 }
 
 header#topo {
@@ -16,7 +18,7 @@ header#topo {
 body {
     margin: 0;
     padding: 0;
-    background: url("imagens/fundo6.jpg");
+   background: url(Imagens/fundo6.jpg);
 }
 
 article h2 {
@@ -24,6 +26,15 @@ article h2 {
     font-size: 28px;
     color: #000000;
     text-align: justify;
+}
+
+article h3 {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 33px;
+    color: #000000;
+    text-align: left;
+    text-transform: uppercase;
+    background-color:  rgb(163, 46, 54);
 }
 
 img.logo {
@@ -54,6 +65,7 @@ div.principal {
     display: flex;
     gap: 20px;
     margin: 20px;
+    align-items: center;
 }
 
 div.foto1 {
@@ -69,8 +81,85 @@ div.principal2 {
     display: flex;
     gap: 20px;
     margin: 20px;
+    align-items: center;
 }
 
 div.foto2 {
     float: left;
+}
+
+div.texto3 {
+    text-align: justify;    
+    left: 20px;
+}
+
+div.principal3 {
+    display: flex;
+    gap: 20px;
+    margin: 20px;
+    align-items: center;
+}
+
+div.foto3 {
+    float: right;
+}
+
+nav#menu h3 {
+	display: none;
+}
+nav#menu ol {
+	list-style: none;
+	text-transform: uppercase;
+	position: absolute;
+	top: 0px;
+	right: 60px;
+}
+nav#menu li {
+	display: inline-block;
+	background-color: rgb(163, 46, 54);
+	padding: 10px;
+	margin: 3px;
+	border-radius: 10px;
+	transition: background-color 2s;
+}
+nav#menu li:hover {
+	background-color: rgb(82, 24, 28);
+}
+nav#menu a {
+	color: rgb(242, 211, 33);
+	text-decoration: none;
+}
+nav#menu a:hover {
+	text-decoration: underline;
+}
+
+div.sumario {
+	width: auto;
+	margin: 30px 20px 0px 20px;
+}
+
+div.sumario h2 {
+	margin-bottom: 15px;
+}
+
+div.sumario details {
+	margin-bottom: 10px;
+	background-color: #ffde9bb7;
+	border-radius: 10px;
+}
+
+div.sumario summary {
+    padding: 3px;
+    font-weight: bold;
+	cursor: pointer;
+    font-size: 23px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+div.sumario p {
+	padding: 0 12px 12px 12px;
+	margin: 0;
+    font-size: 20px; 
+    font-family:'Times New Roman', Times, serif; 
+    font-weight: bold;
 }
