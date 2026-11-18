@@ -2,6 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Exile&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Changa+One:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Zeyada&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
 
 header h1 {
 font-family: "Changa One", sans-serif;
@@ -111,7 +113,7 @@ nav#menu ol {
 	list-style: none;
 	text-transform: uppercase;
 	position: absolute;
-	top: 0px;
+	top: 24px;
 	right: 60px;
 }
 nav#menu li {
@@ -162,4 +164,97 @@ div.sumario p {
     font-size: 20px; 
     font-family:'Times New Roman', Times, serif; 
     font-weight: bold;
+}
+
+
+div.videos-musicas2 iframe {
+	border-radius: 50px;
+	width: 100%; 
+	aspect-ratio: 16/9;
+	border: 3px solid rgb(145, 10, 10);
+}
+
+span.texto-musicas {
+    text-align: Center;    
+    font-size: 40px; 
+    font-family: "Changa One", sans-serif;
+    font-weight: bold;
+    color: rgb(163, 46, 54);;
+}
+
+div.videos-musicas {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    max-width: 1100px;
+    margin: 30px auto;
+}
+
+div.videos-musicas2 {
+	 display: flex;
+    justify-content: center;
+    min-width: 0;
+}
+
+footer#rodape {
+    background-color: #000000e5;
+    padding: 10px;
+
+}
+
+footer#rodape h1 {
+    font-family: "Changa One", sans-serif;
+  font-size: 35px;
+  color: rgb(163, 46, 54);
+     margin-bottom: 5px;
+      margin-bottom: 5px;
+}
+
+footer#rodape {
+    margin-top: 90px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 20px;
+}
+
+footer#rodape h4 {
+    color:rgb(233, 231, 114);
+    font-family: "Zeyada", cursive;
+    margin-top: 0;
+    white-space: nowrap;
+}
+
+footer#rodape h2 {
+    color:rgb(233, 231, 114);
+    font-family: "Dancing Script", cursive;
+     margin-top: 0;
+     text-align: center;
+     position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0;
+    text-align: center;
+}
+
+div.redes-sociais {
+    display: flex;
+    gap: 25px;
+    font-size: 38px;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+    padding-right: 40px;
+}
+
+div.redes-sociais a {
+    color: rgb(163, 46, 54);
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+div.redes-sociais a:hover {
+    color: rgb(233, 231, 114);
+    transform: scale(1.2);
 }
