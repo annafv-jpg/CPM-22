@@ -106,6 +106,14 @@ div.foto3 {
     float: right;
 }
 
+div.foto4 {
+    float: left;
+   border: 8px solid rgb(163, 46, 54);
+   line-height: 0;
+   border-radius: 15px;
+   box-shadow: 10px 10px 15px #d87878;
+}
+
 nav#menu h3 {
 	display: none;
 }
